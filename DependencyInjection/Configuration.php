@@ -34,6 +34,8 @@ class Configuration implements ConfigurationInterface
             ->end()
             ->children()
                 ->scalarNode('subaccount')->defaultNull()->end()
+            ->children()
+                ->scalarNode('loggerService')->defaultNull()->end()
             ->end()
         ;
 

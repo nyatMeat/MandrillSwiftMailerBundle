@@ -29,6 +29,7 @@ class AccordMandrillSwiftMailerExtension extends Extension
         $transportDefinition->addMethodCall('setApiKey', array( $config['api_key'] ));
         $transportDefinition->addMethodCall('setAsync', array( $config['async'] ));
         $transportDefinition->addMethodCall('setSubAccount', array( $config['subaccount'] ));
+        $transportDefinition->addMethodCall('setLogger', array( $config['loggerService'] ));
 
         $container->setAlias('accord_mandrill', 'swiftmailer.mailer.transport.accord_mandrill');
     }

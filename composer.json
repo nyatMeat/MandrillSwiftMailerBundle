@@ -1,5 +1,5 @@
 {
-    "name": "accord/mandrill-swiftmailer-bundle",
+    "name": "nyatmeat/mandrill-swiftmailer-bundle",
     "description": "Symfony bundle to provide a Mandrill SwiftMailer service",
     "keywords": ["mandrill", "swiftmailer", "symfony", "bundle"],
     "homepage": "https://github.com/AccordGroup/MandrillSwiftMailerBundle",

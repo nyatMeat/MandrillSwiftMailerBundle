@@ -12,7 +12,7 @@ Mandrill API Key - https://mandrillapp.com/
 
 ### Require the package with composer
 
-    composer require accord/mandrill-swiftmailer-bundle
+    composer require nyatmeat/mandrill-swiftmailer-bundle
 
 ### Add AccordMandrillSwiftMailerBundle to application kernel
 
